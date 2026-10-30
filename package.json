@@ -1,0 +1,25 @@
+{
+  "name": "codearts-req-mcp-server",
+  "version": "1.0.0",
+  "description": "华为云 CodeArts 需求管理（Req）本地 stdio MCP Server，基于 @modelcontextprotocol/sdk，支持 AK/SK 签名",
+  "type": "module",
+  "main": "server.mjs",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test server.test.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "huaweicloud",
+    "codearts",
+    "req"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
